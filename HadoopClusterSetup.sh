@@ -42,9 +42,9 @@ nano yarn-site.xml
 nano mapred-site.xml
 
 #copy the setting to every slaves
-scp -r * student@CC-demo-2:~/hadoop/etc/hadoop/
+scp -r * student@CC-MON-10:~/hadoop/etc/hadoop/
 
-scp -r * student@CC-demo-3:~/hadoop/etc/hadoop/
+scp -r * student@CC-MON-11:~/hadoop/etc/hadoop/
 
 #Formate the namenode
 hadoop namenode -format

@@ -23,27 +23,27 @@
 </property>
 	<property>
  <name>yarn.resourcemanager.scheduler.address</name>
- <value>CC-demo-1:8030</value>
+ <value>CC-MON-9:8030</value>
 </property>
 
 <property>
  <name>yarn.resourcemanager.address</name>
- <value>CC-demo-1:8032</value>
+ <value>CC-MON-9:8032</value>
 </property>
 
 <property>
   <name>yarn.resourcemanager.webapp.address</name>
-  <value>CC-demo-1:8088</value>
+  <value>CC-MON-9:8088</value>
 </property>
 
 <property>
   <name>yarn.resourcemanager.resource-tracker.address</name>
-  <value>CC-demo-1:8031</value>
+  <value>CC-MON-9:8031</value>
 </property>
 
 <property>
   <name>yarn.resourcemanager.admin.address</name>
-  <value>CC-demo-1:8033</value>
+  <value>CC-MON-9:8033</value>
 </property>
 
 </configuration>
